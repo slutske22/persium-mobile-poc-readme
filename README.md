@@ -9,7 +9,7 @@
 <img src="./assets/screenshots/9.png" width="200">
 </p>
 
-### (This repository contains a README and screenshots only, for demonstration and portfolio purposes. No actual code is published here.)
+**_(This repository contains a README and screenshots only, for demonstration and portfolio purposes. No actual code is published here.)_**
 
 This codebase is a proof of concept for Persium MapView. The MapView application lends itself well to being a native mobile application. The original frontend codebase is written with react and redux, which suggests that a mobile application could be quickly developed using react-native.
 
