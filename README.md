@@ -55,3 +55,7 @@ Certain features present on the front end may prove challenging to reproduce usi
 </p>
 
 The frontend uses [HighchartsJS](https://www.highcharts.com/) for most of the graphing functionality. The graphs will need to be rewritten in a react-native friendly charting library. While there is a correlary [Highcharts for React Native](https://github.com/highcharts/highcharts-react-native), it doesn't seem particularly well maintained. Instead, this project uses [Victory.js](https://formidable.com/open-source/victory/), a charting library with excellent react-native support and up-to-date maintenance. Having 2 different libararies to build the same UI across 2 different platforms is not ideal, but developing the required Persium charts with Victory is relatively painless.
+
+### **User Authentication**
+
+User authentication in react-native requires a slightly different process than on the web, especially with OAuth providers. Persium allows for logins via Google and Facebook OAuth providers. The use of [expo-auth-session](https://docs.expo.dev/versions/latest/sdk/auth-session/) helps streamline the process. But extra steps and account management are necessary to enable OAuth across various development and production environments.
