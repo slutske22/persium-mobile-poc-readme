@@ -54,4 +54,4 @@ Certain features present on the front end may prove challenging to reproduce usi
 <img src="./assets/screenshots/7.png" width="200">
 </p>
 
-The frontend uses [HighchartsJS](https://www.highcharts.com/) for most of the graphing functionality. The graphs will need to be rewritten in a react-native friendly charting library. [Here's](https://blog.logrocket.com/the-top-8-react-native-chart-libraries-for-2021/) a short list.
+The frontend uses [HighchartsJS](https://www.highcharts.com/) for most of the graphing functionality. The graphs will need to be rewritten in a react-native friendly charting library. While there is a correlary [Highcharts for React Native](https://github.com/highcharts/highcharts-react-native), it doesn't seem particularly well maintained. Instead, this project uses [Victory.js](https://formidable.com/open-source/victory/), a charting library with excellent react-native support and up-to-date maintenance. Having 2 different libararies to build the same UI across 2 different platforms is not ideal, but developing the required Persium charts with Victory is relatively painless.
